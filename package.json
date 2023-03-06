@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --name my-app --watch --ignore-watch=\"node_modules\"",
-    "test": "mocha --timeout 5000"
+    "test": "mocha --exit"
   },
   "author": "",
   "license": "ISC",
