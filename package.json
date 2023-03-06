@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name my-app --watch --ignore-watch=\"node_modules\"",
+    "start": "node index.js",
     "test": "mocha --exit"
   },
   "author": "",
