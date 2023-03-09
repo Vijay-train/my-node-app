@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello, Azure!');
+  res.send('Hello, NG!');
 });
 
 const PORT = process.env.PORT || 3000;
